@@ -1,0 +1,31 @@
+class Solution
+{
+public:
+    vector<int> twoSum(vector<int> &numbers, int target)
+    {
+        int l = 0;
+        int h = numbers.size() - 1;
+        vector<int> result;
+
+        while (l < h)
+        {
+            if (numbers[l] + numbers[h] > target)
+            {
+                h--;
+            }
+            else if (numbers[l] + numbers[h] < target)
+            {
+                l++;
+            }
+            else if (numbers[l] + numbers[h] == target)
+            {
+                cout << "Elements found whose sum is = Target";
+                result.push_back(l + 1);
+                result.push_back(h + 1);
+                break;
+
+            }
+        }
+        return result;
+    }
+};
