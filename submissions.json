@@ -45,6 +45,17 @@
     ]
   },
   {
+    "id": 633,
+    "title": "Sum of Square Numbers",
+    "title_slug": "sum-of-square-numbers",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Search",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  {
     "id": 1480,
     "title": "Running Sum of 1d Array",
     "title_slug": "running-sum-of-1d-array",
